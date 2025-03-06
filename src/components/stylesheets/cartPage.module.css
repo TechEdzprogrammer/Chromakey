@@ -1,0 +1,30 @@
+.cartSection{
+    width: 100vw;
+    height: 100vh;
+}
+
+.heading{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.productDiv{
+    width: 60%;
+    display: inline-flex;
+    gap:2%;
+    margin: 2% 20% 0 20%;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.details{
+    margin-top: 3%;
+}
+
+.checkoutbutton, .link{
+    height: 5%;
+    margin: 3% 0 0 3%;
+}
+.deletebutton{
+    height: 5%;
+    margin-top: 3.3%;
+}

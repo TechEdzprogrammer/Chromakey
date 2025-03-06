@@ -1,0 +1,28 @@
+.banner{
+    width:100%;
+}
+.container{
+    width: 100%;
+    display: grid;
+    grid-template-rows:80% 5%;
+    margin-bottom: 0;
+    background-color: #1ea065;
+}
+.btnContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shopbtn{
+    width: 100%;
+    font-size: 15pt;
+}
+.navName{
+    color: aliceblue;
+    display: flex;
+    gap:2%;
+}
+
+
+

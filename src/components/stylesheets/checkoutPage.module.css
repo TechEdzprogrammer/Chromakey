@@ -1,0 +1,44 @@
+.productContainer{
+    width: 100vw;
+    height: 100vh;
+    padding: 2%;
+}
+
+.productDiv{
+    width: 100%;
+    display: inline-flex;
+    gap:5%;
+    margin-top: 4%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.details, .quantity{
+    margin-top: 3%;
+}
+
+.placeOrder{
+    height: 5%;
+    margin-top: 3%;
+}
+
+.heading{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.quantityAddButton{
+    background-color: aqua;
+    margin: 1.5%;
+}
+
+.quantitySubButton{
+    background-color: chocolate;
+}
+
+.quantitySubButton, .quantityAddButton{
+    font-weight: 1000;
+    font-size: medium;
+}
+.quantity{
+    width: 25%;
+}

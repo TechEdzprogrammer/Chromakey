@@ -1,0 +1,37 @@
+.productDetailsContainer{
+    width: 100vw;
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+}
+
+.productDetails{
+    width: max-content
+}
+
+.productDetailsImg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 2% 0 2% 0;
+}
+
+.details{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 2%;
+    background-color: #1ea065;
+    color: aliceblue;
+}
+
+.button{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 5%;
+    margin-top: 5%;
+}
+
+.reviews{
+    margin-top: 2%;
+}
