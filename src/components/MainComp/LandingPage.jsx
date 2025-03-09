@@ -2,7 +2,7 @@ import {Link} from 'react-router-dom';
 import styles from '../stylesheets/landingPage.module.css';
 import Footer from '../SubComponents/Footer';
 import NavBar from '../SubComponents/NavBar';
-
+import img from '../img/ChromaKey landing page banner.svg';
 function LandingPage(){
     return(
         <>
@@ -10,7 +10,7 @@ function LandingPage(){
 
             <section className={styles.container}>
                 <div>
-                    <img src="src\assets\ChromaKey landing page banner.svg" alt="banner of ChromaKey" className={styles.banner}/>
+                    <img src={img} alt="banner of ChromaKey" className={styles.banner}/>
                 </div>
                 <div className={styles.btnContainer}>
                     <Link to="/products-page"><button className={`btn btn-dark ${styles.shopbtn}`}>Shop Now</button></Link>
